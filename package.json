@@ -1,0 +1,15 @@
+{
+  "name": "rollup-plugin-node-resolve-typings",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "rollup -c && node build/index.mjs"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "13.3.0",
+    "rollup": "2.74.1",
+    "typescript": "4.7.1-rc"
+  }
+}
